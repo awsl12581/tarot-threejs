@@ -24,6 +24,10 @@ electron由于本地加载的原因只能在**electron:serve**时使用，在打
 
 按钮样式来源[https://codepen.io/pizza3/pen/qmerBv](https://codepen.io/pizza3/pen/qmerBv)
 
+材质来源[https://cpetry.github.io/NormalMap-Online/](https://cpetry.github.io/NormalMap-Online/)
+
+ttf转json来源[http://gero3.github.io/facetype.js/](http://gero3.github.io/facetype.js/)
+
 感谢本项目package.json中依赖的作者们以及感谢我在解决问题时搜索到的博客作者们
 
 
