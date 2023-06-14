@@ -44,7 +44,7 @@ const btnClick = (type: string) => {
   // 计算随机数据
   const randomNum = getRandomNum(0, 22);
   console.log(`随机数显示的卡牌为:${myArray[randomNum].name}`);
-  // reactive不能一次性全部刷新，这些数据会在nextTick时进行同步
+  // reactive不能一次性全部刷新
   changeType.name = myArray[randomNum].name;
   changeType.id = myArray[randomNum].id;
   changeType.text = myArray[randomNum].text;

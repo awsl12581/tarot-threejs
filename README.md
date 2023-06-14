@@ -1,18 +1,30 @@
-# Vue 3 + TypeScript + Vite
+# 方舟塔罗
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+本项目是作者的一个支线项目，由于我在b站看到了[**素叶锦时**](https://space.bilibili.com/35404297)使用AI绘制的塔罗牌，因此萌生了卡牌展示的想法（其实是想展示库洛牌，但没卡面）
 
-## Recommended IDE Setup
+### 技术路线
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+**vite+vue3+threejs**
 
-## Type Support For `.vue` Imports in TS
+### 项目启动
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+> 克隆本项目
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+> yarn install
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+> yarn dev
+
+### 项目说明
+
+本项目是作者闲暇时间制作，同步代码较多，因此可能较为卡顿
+
+本项目的卡片卡面素材来源地址为[**素叶锦时**](https://space.bilibili.com/35404297)
+
+electron由于本地加载的原因只能在**electron:serve**时使用，在打包后会因为public请求路径问题无法使用。由于本项目只是出于对threejs的学习目的，因此本问题留待有缘人解决
+
+按钮样式来源[https://codepen.io/pizza3/pen/qmerBv](https://codepen.io/pizza3/pen/qmerBv)
+
+感谢本项目package.json中依赖的作者们以及感谢我在解决问题时搜索到的博客作者们
+
+
+
